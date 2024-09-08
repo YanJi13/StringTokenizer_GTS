@@ -1,0 +1,910 @@
+
+Token                          Classification      
+--------------------------------------------------
+"Caught"                       -> Word - Capitalized  
+"you"                          -> Word - Lowercase    
+"in"                           -> Word - Lowercase    
+"8K"                           -> Alphanumerics       
+"UHD"                          -> Alphanumerics       
+"surround"                     -> Word - Lowercase    
+"sound"                        -> Word - Lowercase    
+"16"                           -> Number              
+"Gigs"                         -> Word - Capitalized  
+"ram"                          -> Word - Lowercase    
+","                            -> Punctuation         
+"HDR"                          -> Alphanumerics       
+"GEFORCE"                      -> Alphanumerics       
+"RTX"                          -> Alphanumerics       
+","                            -> Punctuation         
+"TI"                           -> Alphanumerics       
+"-"                            -> Math Symbol         
+"80"                           -> Number              
+"texas"                        -> Word - Lowercase    
+"insturments"                  -> Word - Lowercase    
+","                            -> Punctuation         
+"Triple"                       -> Word - Capitalized  
+"A"                            -> Letter - Capital    
+"duracell"                     -> Word - Lowercase    
+"battery"                      -> Word - Lowercase    
+"ultrapower100"                -> Alphanumerics       
+"Cargador"                     -> Word - Capitalized  
+"Compatible"                   -> Word - Capitalized  
+"iPhone"                       -> Alphanumerics       
+"1A"                           -> Alphanumerics       
+"5"                            -> Number              
+"W"                            -> Letter - Capital    
+"1400"                         -> Number              
+"+"                            -> Math Symbol         
+"Cable"                        -> Word - Capitalized  
+"100"                          -> Number              
+"%"                            -> Punctuation         
+"1"                            -> Number              
+"Metro"                        -> Word - Capitalized  
+"Blanco"                       -> Word - Capitalized  
+"Compatible"                   -> Word - Capitalized  
+"iPhone"                       -> Alphanumerics       
+"5"                            -> Number              
+"5"                            -> Number              
+"C"                            -> Letter - Capital    
+"5S"                           -> Alphanumerics       
+"6"                            -> Number              
+"SE"                           -> Alphanumerics       
+"6S"                           -> Alphanumerics       
+"7"                            -> Number              
+"8"                            -> Number              
+"X"                            -> Letter - Capital    
+"XR"                           -> Alphanumerics       
+"XS"                           -> Alphanumerics       
+"XS"                           -> Alphanumerics       
+"MAX"                          -> Alphanumerics       
+"GoPro"                        -> Alphanumerics       
+"hero"                         -> Word - Lowercase    
+"1"                            -> Number              
+"2"                            -> Number              
+"terrabyte"                    -> Word - Lowercase    
+"xbox"                         -> Word - Lowercase    
+"series"                       -> Word - Lowercase    
+"x"                            -> Letter - Lowercase  
+"Dell"                         -> Word - Capitalized  
+"UltraSharp"                   -> Alphanumerics       
+"49"                           -> Number              
+"Curved"                       -> Word - Capitalized  
+"Monitor"                      -> Word - Capitalized  
+"-"                            -> Math Symbol         
+"U4919DW"                      -> Alphanumerics       
+"Sony"                         -> Word - Capitalized  
+"HDC"                          -> Alphanumerics       
+"-"                            -> Math Symbol         
+"3300R"                        -> Alphanumerics       
+"2"                            -> Number              
+"/"                            -> Math Symbol         
+"3"                            -> Number              
+"""                            -> Punctuation         
+"CCD"                          -> Alphanumerics       
+"HD"                           -> Alphanumerics       
+"Super"                        -> Word - Capitalized  
+"Motion"                       -> Word - Capitalized  
+"Color"                        -> Word - Capitalized  
+"Camera"                       -> Word - Capitalized  
+","                            -> Punctuation         
+"1080p"                        -> Alphanumerics       
+"Resolution"                   -> Word - Capitalized  
+"Toshiba"                      -> Word - Capitalized  
+"EM131A5C"                     -> Alphanumerics       
+"-"                            -> Math Symbol         
+"SS"                           -> Alphanumerics       
+"Microwave"                    -> Word - Capitalized  
+"Oven"                         -> Word - Capitalized  
+"with"                         -> Word - Lowercase    
+"Smart"                        -> Word - Capitalized  
+"Sensor"                       -> Word - Capitalized  
+","                            -> Punctuation         
+"Easy"                         -> Word - Capitalized  
+"Clean"                        -> Word - Capitalized  
+"Interior"                     -> Word - Capitalized  
+","                            -> Punctuation         
+"ECO"                          -> Alphanumerics       
+"Mode"                         -> Word - Capitalized  
+"and"                          -> Word - Lowercase    
+"Sound"                        -> Word - Capitalized  
+"On"                           -> Word - Capitalized  
+"/"                            -> Math Symbol         
+"Off"                          -> Word - Capitalized  
+","                            -> Punctuation         
+"1"                            -> Number              
+"."                            -> Punctuation         
+"2"                            -> Number              
+"Cu"                           -> Word - Capitalized  
+"."                            -> Punctuation         
+"ft"                           -> Word - Lowercase    
+","                            -> Punctuation         
+"Stainless"                    -> Word - Capitalized  
+"Steel"                        -> Word - Capitalized  
+"HP"                           -> Alphanumerics       
+"LaserJet"                     -> Alphanumerics       
+"Pro"                          -> Word - Capitalized  
+"M404n"                        -> Alphanumerics       
+"Monochrome"                   -> Word - Capitalized  
+"Laser"                        -> Word - Capitalized  
+"Printer"                      -> Word - Capitalized  
+"with"                         -> Word - Lowercase    
+"Built"                        -> Word - Capitalized  
+"-"                            -> Math Symbol         
+"in"                           -> Word - Lowercase    
+"Ethernet"                     -> Word - Capitalized  
+"("                            -> Punctuation         
+"W1A52A"                       -> Alphanumerics       
+")"                            -> Punctuation         
+"GE"                           -> Alphanumerics       
+"Voluson"                      -> Word - Capitalized  
+"E10"                          -> Alphanumerics       
+"Ultrasound"                   -> Word - Capitalized  
+"Machine"                      -> Word - Capitalized  
+"LG"                           -> Alphanumerics       
+"23"                           -> Number              
+"Cu"                           -> Word - Capitalized  
+"."                            -> Punctuation         
+"Ft"                           -> Word - Capitalized  
+"."                            -> Punctuation         
+"Smart"                        -> Word - Capitalized  
+"Wi"                           -> Word - Capitalized  
+"-"                            -> Math Symbol         
+"Fi"                           -> Word - Capitalized  
+"Enabled"                      -> Word - Capitalized  
+"InstaView"                    -> Alphanumerics       
+"Door"                         -> Word - Capitalized  
+"-"                            -> Math Symbol         
+"in"                           -> Word - Lowercase    
+"-"                            -> Math Symbol         
+"Door"                         -> Word - Capitalized  
+"Counter"                      -> Word - Capitalized  
+"-"                            -> Math Symbol         
+"Depth"                        -> Word - Capitalized  
+"Refrigerator"                 -> Word - Capitalized  
+"with"                         -> Word - Lowercase    
+"Craft"                        -> Word - Capitalized  
+"Ice"                          -> Word - Capitalized  
+"Maker"                        -> Word - Capitalized  
+"GFW850SPNRS"                  -> Alphanumerics       
+"GE"                           -> Alphanumerics       
+"28"                           -> Number              
+"""                            -> Punctuation         
+"Front"                        -> Word - Capitalized  
+"Load"                         -> Word - Capitalized  
+"Steam"                        -> Word - Capitalized  
+"Washer"                       -> Word - Capitalized  
+"5"                            -> Number              
+"."                            -> Punctuation         
+"0"                            -> Number              
+"Cu"                           -> Word - Capitalized  
+"."                            -> Punctuation         
+"Ft"                           -> Word - Capitalized  
+"."                            -> Punctuation         
+"with"                         -> Word - Lowercase    
+"SmartDispense"                -> Alphanumerics       
+","                            -> Punctuation         
+"WiFi"                         -> Alphanumerics       
+","                            -> Punctuation         
+"OdorBlock"                    -> Alphanumerics       
+"and"                          -> Word - Lowercase    
+"Sanitize"                     -> Word - Capitalized  
+"and"                          -> Word - Lowercase    
+"Allergen"                     -> Word - Capitalized  
+"-"                            -> Math Symbol         
+"Royal"                        -> Word - Capitalized  
+"Sapphire"                     -> Word - Capitalized  
+"Kohler"                       -> Word - Capitalized  
+"K"                            -> Letter - Capital    
+"-"                            -> Math Symbol         
+"3589"                         -> Number              
+"Cimarron"                     -> Word - Capitalized  
+"Comfort"                      -> Word - Capitalized  
+"Height"                       -> Word - Capitalized  
+"Two"                          -> Word - Capitalized  
+"-"                            -> Math Symbol         
+"Piece"                        -> Word - Capitalized  
+"Elongated"                    -> Word - Capitalized  
+"1"                            -> Number              
+"."                            -> Punctuation         
+"6"                            -> Number              
+"GPF"                          -> Alphanumerics       
+"Toilet"                       -> Word - Capitalized  
+"with"                         -> Word - Lowercase    
+"AquaPiston"                   -> Alphanumerics       
+"Flush"                        -> Word - Capitalized  
+"Technology"                   -> Word - Capitalized  
+"."                            -> Punctuation         
+","                            -> Punctuation         
+"Quick"                        -> Word - Capitalized  
+"Charge"                       -> Word - Capitalized  
+"30W"                          -> Alphanumerics       
+"Cargador"                     -> Word - Capitalized  
+"3"                            -> Number              
+"."                            -> Punctuation         
+"0"                            -> Number              
+"Cargador"                     -> Word - Capitalized  
+"de"                           -> Word - Lowercase    
+"Viaje"                        -> Word - Capitalized  
+"Enchufe"                      -> Word - Capitalized  
+"Cargador"                     -> Word - Capitalized  
+"USB"                          -> Alphanumerics       
+"Carga"                        -> Word - Capitalized  
+"Rápida"                       -> Unknown Character   
+"con"                          -> Word - Lowercase    
+"3"                            -> Number              
+"Puertos"                      -> Word - Capitalized  
+"carga"                        -> Word - Lowercase    
+"rápida"                       -> Unknown Character   
+"Adaptador"                    -> Word - Capitalized  
+"de"                           -> Word - Lowercase    
+"Corriente"                    -> Word - Capitalized  
+"para"                         -> Word - Lowercase    
+"iPhone"                       -> Alphanumerics       
+"x"                            -> Letter - Lowercase  
+"8"                            -> Number              
+"7"                            -> Number              
+"Xiaomi"                       -> Word - Capitalized  
+"Pocophone"                    -> Word - Capitalized  
+"F1"                           -> Alphanumerics       
+"Mix"                          -> Word - Capitalized  
+"3"                            -> Number              
+"A1"                           -> Alphanumerics       
+"Samsung"                      -> Word - Capitalized  
+"S10"                          -> Alphanumerics       
+"S9"                           -> Alphanumerics       
+"S8AUKEY"                      -> Alphanumerics       
+"Quick"                        -> Word - Capitalized  
+"Charge"                       -> Word - Capitalized  
+"3"                            -> Number              
+"."                            -> Punctuation         
+"0"                            -> Number              
+"Cargador"                     -> Word - Capitalized  
+"de"                           -> Word - Lowercase    
+"Pared"                        -> Word - Capitalized  
+"39W"                          -> Alphanumerics       
+"Dual"                         -> Word - Capitalized  
+"Puerto"                       -> Word - Capitalized  
+"Cargador"                     -> Word - Capitalized  
+"Móvil"                        -> Unknown Character   
+"para"                         -> Word - Lowercase    
+"Samsung"                      -> Word - Capitalized  
+"Galaxy"                       -> Word - Capitalized  
+"S8"                           -> Alphanumerics       
+"/"                            -> Math Symbol         
+"S8"                           -> Alphanumerics       
+"+"                            -> Math Symbol         
+"/"                            -> Math Symbol         
+"Note"                         -> Word - Capitalized  
+"8"                            -> Number              
+","                            -> Punctuation         
+"iPhone"                       -> Alphanumerics       
+"XS"                           -> Alphanumerics       
+"/"                            -> Math Symbol         
+"XS"                           -> Alphanumerics       
+"Max"                          -> Word - Capitalized  
+"/"                            -> Math Symbol         
+"XR"                           -> Alphanumerics       
+","                            -> Punctuation         
+"iPad"                         -> Alphanumerics       
+"Pro"                          -> Word - Capitalized  
+"/"                            -> Math Symbol         
+"Air"                          -> Word - Capitalized  
+","                            -> Punctuation         
+"HTC"                          -> Alphanumerics       
+"10"                           -> Number              
+","                            -> Punctuation         
+"LG"                           -> Alphanumerics       
+"G5"                           -> Alphanumerics       
+"/"                            -> Math Symbol         
+"G6"                           -> Alphanumerics       
+"AUKEY"                        -> Alphanumerics       
+"Quick"                        -> Word - Capitalized  
+"Charge"                       -> Word - Capitalized  
+"3"                            -> Number              
+"."                            -> Punctuation         
+"0"                            -> Number              
+"Cargador"                     -> Word - Capitalized  
+"USB"                          -> Alphanumerics       
+"60W"                          -> Alphanumerics       
+"6"                            -> Number              
+"Puerto"                       -> Word - Capitalized  
+"Cargador"                     -> Word - Capitalized  
+"Móvil"                        -> Unknown Character   
+"para"                         -> Word - Lowercase    
+"Samsung"                      -> Word - Capitalized  
+"Galaxy"                       -> Word - Capitalized  
+"S8"                           -> Alphanumerics       
+"/"                            -> Math Symbol         
+"S8"                           -> Alphanumerics       
+"+"                            -> Math Symbol         
+"/"                            -> Math Symbol         
+"Note"                         -> Word - Capitalized  
+"8"                            -> Number              
+","                            -> Punctuation         
+"LG"                           -> Alphanumerics       
+"G5"                           -> Alphanumerics       
+"/"                            -> Math Symbol         
+"G6"                           -> Alphanumerics       
+","                            -> Punctuation         
+"Nexus"                        -> Word - Capitalized  
+"5X"                           -> Alphanumerics       
+"/"                            -> Math Symbol         
+"6P"                           -> Alphanumerics       
+","                            -> Punctuation         
+"HTC"                          -> Alphanumerics       
+"10"                           -> Number              
+","                            -> Punctuation         
+"iPhone"                       -> Alphanumerics       
+"XS"                           -> Alphanumerics       
+"/"                            -> Math Symbol         
+"XS"                           -> Alphanumerics       
+"Max"                          -> Word - Capitalized  
+"/"                            -> Math Symbol         
+"XR"                           -> Alphanumerics       
+","                            -> Punctuation         
+"iPad"                         -> Alphanumerics       
+"Pro"                          -> Word - Capitalized  
+"/"                            -> Math Symbol         
+"Air"                          -> Word - Capitalized  
+","                            -> Punctuation         
+"Moto"                         -> Word - Capitalized  
+"G4"                           -> Alphanumerics       
+"SAMSUNG"                      -> Alphanumerics       
+"85"                           -> Number              
+"-"                            -> Math Symbol         
+"inch"                         -> Word - Lowercase    
+"Class"                        -> Word - Capitalized  
+"Crystal"                      -> Word - Capitalized  
+"UHD"                          -> Alphanumerics       
+"TU"                           -> Alphanumerics       
+"-"                            -> Math Symbol         
+"8000"                         -> Number              
+"Series"                       -> Word - Capitalized  
+"-"                            -> Math Symbol         
+"4K"                           -> Alphanumerics       
+"UHD"                          -> Alphanumerics       
+"HDR"                          -> Alphanumerics       
+"Smart"                        -> Word - Capitalized  
+"TV"                           -> Alphanumerics       
+"with"                         -> Word - Lowercase    
+"Alexa"                        -> Word - Capitalized  
+"Built"                        -> Word - Capitalized  
+"-"                            -> Math Symbol         
+"in"                           -> Word - Lowercase    
+"("                            -> Punctuation         
+"UN85TU8000FXZA"               -> Alphanumerics       
+","                            -> Punctuation         
+"2020"                         -> Number              
+"Model"                        -> Word - Capitalized  
+")"                            -> Punctuation         
+"GE"                           -> Alphanumerics       
+"38846"                        -> Number              
+"Premium"                      -> Word - Capitalized  
+"Slim"                         -> Word - Capitalized  
+"LED"                          -> Alphanumerics       
+"Light"                        -> Word - Capitalized  
+"Bar"                          -> Word - Capitalized  
+","                            -> Punctuation         
+"18"                           -> Number              
+"Inch"                         -> Word - Capitalized  
+"Under"                        -> Word - Capitalized  
+"Cabinet"                      -> Word - Capitalized  
+"Fixture"                      -> Word - Capitalized  
+","                            -> Punctuation         
+"Plug"                         -> Word - Capitalized  
+"-"                            -> Math Symbol         
+"In"                           -> Word - Capitalized  
+","                            -> Punctuation         
+"Convertible"                  -> Word - Capitalized  
+"to"                           -> Word - Lowercase    
+"Direct"                       -> Word - Capitalized  
+"Wire"                         -> Word - Capitalized  
+","                            -> Punctuation         
+"Linkable"                     -> Word - Capitalized  
+"628"                          -> Number              
+"Lumens"                       -> Word - Capitalized  
+","                            -> Punctuation         
+"3000K"                        -> Alphanumerics       
+"Soft"                         -> Word - Capitalized  
+"Warm"                         -> Word - Capitalized  
+"White"                        -> Word - Capitalized  
+","                            -> Punctuation         
+"High"                         -> Word - Capitalized  
+"/"                            -> Math Symbol         
+"Off"                          -> Word - Capitalized  
+"/"                            -> Math Symbol         
+"Low"                          -> Word - Capitalized  
+","                            -> Punctuation         
+"Easy"                         -> Word - Capitalized  
+"to"                           -> Word - Lowercase    
+"Install"                      -> Word - Capitalized  
+","                            -> Punctuation         
+"18"                           -> Number              
+"Ft"                           -> Word - Capitalized  
+"Bissell"                      -> Word - Capitalized  
+"Cleanview"                    -> Word - Capitalized  
+"Swivel"                       -> Word - Capitalized  
+"Pet"                          -> Word - Capitalized  
+"Upright"                      -> Word - Capitalized  
+"Bagless"                      -> Word - Capitalized  
+"Vacuum"                       -> Word - Capitalized  
+"Cleaner"                      -> Word - Capitalized  
+"Trane20"                      -> Alphanumerics       
+","                            -> Punctuation         
+"000"                          -> Number              
+"-"                            -> Math Symbol         
+"Watt"                         -> Word - Capitalized  
+"1"                            -> Number              
+"-"                            -> Math Symbol         
+"Phase"                        -> Word - Capitalized  
+"LPG"                          -> Alphanumerics       
+"/"                            -> Math Symbol         
+"NG"                           -> Alphanumerics       
+"Liquid"                       -> Word - Capitalized  
+"Cooled"                       -> Word - Capitalized  
+"Whole"                        -> Word - Capitalized  
+"House"                        -> Word - Capitalized  
+"Standby"                      -> Word - Capitalized  
+"Generator"                    -> Word - Capitalized  
+"."                            -> Punctuation         
+
+Token                          Individual Characters
+--------------------------------------------------
+"Caught"                       -> 'C''a''u''g''h''t'
+"you"                          -> 'y''o''u'
+"in"                           -> 'i''n'
+"8K"                           -> '8''K'
+"UHD"                          -> 'U''H''D'
+"surround"                     -> 's''u''r''r''o''u''n''d'
+"sound"                        -> 's''o''u''n''d'
+"16"                           -> '1''6'
+"Gigs"                         -> 'G''i''g''s'
+"ram"                          -> 'r''a''m'
+","                            -> ','
+"HDR"                          -> 'H''D''R'
+"GEFORCE"                      -> 'G''E''F''O''R''C''E'
+"RTX"                          -> 'R''T''X'
+","                            -> ','
+"TI"                           -> 'T''I'
+"-"                            -> '-'
+"80"                           -> '8''0'
+"texas"                        -> 't''e''x''a''s'
+"insturments"                  -> 'i''n''s''t''u''r''m''e''n''t''s'
+","                            -> ','
+"Triple"                       -> 'T''r''i''p''l''e'
+"A"                            -> 'A'
+"duracell"                     -> 'd''u''r''a''c''e''l''l'
+"battery"                      -> 'b''a''t''t''e''r''y'
+"ultrapower100"                -> 'u''l''t''r''a''p''o''w''e''r''1''0''0'
+"Cargador"                     -> 'C''a''r''g''a''d''o''r'
+"Compatible"                   -> 'C''o''m''p''a''t''i''b''l''e'
+"iPhone"                       -> 'i''P''h''o''n''e'
+"1A"                           -> '1''A'
+"5"                            -> '5'
+"W"                            -> 'W'
+"1400"                         -> '1''4''0''0'
+"+"                            -> '+'
+"Cable"                        -> 'C''a''b''l''e'
+"100"                          -> '1''0''0'
+"%"                            -> '%'
+"1"                            -> '1'
+"Metro"                        -> 'M''e''t''r''o'
+"Blanco"                       -> 'B''l''a''n''c''o'
+"Compatible"                   -> 'C''o''m''p''a''t''i''b''l''e'
+"iPhone"                       -> 'i''P''h''o''n''e'
+"5"                            -> '5'
+"5"                            -> '5'
+"C"                            -> 'C'
+"5S"                           -> '5''S'
+"6"                            -> '6'
+"SE"                           -> 'S''E'
+"6S"                           -> '6''S'
+"7"                            -> '7'
+"8"                            -> '8'
+"X"                            -> 'X'
+"XR"                           -> 'X''R'
+"XS"                           -> 'X''S'
+"XS"                           -> 'X''S'
+"MAX"                          -> 'M''A''X'
+"GoPro"                        -> 'G''o''P''r''o'
+"hero"                         -> 'h''e''r''o'
+"1"                            -> '1'
+"2"                            -> '2'
+"terrabyte"                    -> 't''e''r''r''a''b''y''t''e'
+"xbox"                         -> 'x''b''o''x'
+"series"                       -> 's''e''r''i''e''s'
+"x"                            -> 'x'
+"Dell"                         -> 'D''e''l''l'
+"UltraSharp"                   -> 'U''l''t''r''a''S''h''a''r''p'
+"49"                           -> '4''9'
+"Curved"                       -> 'C''u''r''v''e''d'
+"Monitor"                      -> 'M''o''n''i''t''o''r'
+"-"                            -> '-'
+"U4919DW"                      -> 'U''4''9''1''9''D''W'
+"Sony"                         -> 'S''o''n''y'
+"HDC"                          -> 'H''D''C'
+"-"                            -> '-'
+"3300R"                        -> '3''3''0''0''R'
+"2"                            -> '2'
+"/"                            -> '/'
+"3"                            -> '3'
+"""                            -> '"'
+"CCD"                          -> 'C''C''D'
+"HD"                           -> 'H''D'
+"Super"                        -> 'S''u''p''e''r'
+"Motion"                       -> 'M''o''t''i''o''n'
+"Color"                        -> 'C''o''l''o''r'
+"Camera"                       -> 'C''a''m''e''r''a'
+","                            -> ','
+"1080p"                        -> '1''0''8''0''p'
+"Resolution"                   -> 'R''e''s''o''l''u''t''i''o''n'
+"Toshiba"                      -> 'T''o''s''h''i''b''a'
+"EM131A5C"                     -> 'E''M''1''3''1''A''5''C'
+"-"                            -> '-'
+"SS"                           -> 'S''S'
+"Microwave"                    -> 'M''i''c''r''o''w''a''v''e'
+"Oven"                         -> 'O''v''e''n'
+"with"                         -> 'w''i''t''h'
+"Smart"                        -> 'S''m''a''r''t'
+"Sensor"                       -> 'S''e''n''s''o''r'
+","                            -> ','
+"Easy"                         -> 'E''a''s''y'
+"Clean"                        -> 'C''l''e''a''n'
+"Interior"                     -> 'I''n''t''e''r''i''o''r'
+","                            -> ','
+"ECO"                          -> 'E''C''O'
+"Mode"                         -> 'M''o''d''e'
+"and"                          -> 'a''n''d'
+"Sound"                        -> 'S''o''u''n''d'
+"On"                           -> 'O''n'
+"/"                            -> '/'
+"Off"                          -> 'O''f''f'
+","                            -> ','
+"1"                            -> '1'
+"."                            -> '.'
+"2"                            -> '2'
+"Cu"                           -> 'C''u'
+"."                            -> '.'
+"ft"                           -> 'f''t'
+","                            -> ','
+"Stainless"                    -> 'S''t''a''i''n''l''e''s''s'
+"Steel"                        -> 'S''t''e''e''l'
+"HP"                           -> 'H''P'
+"LaserJet"                     -> 'L''a''s''e''r''J''e''t'
+"Pro"                          -> 'P''r''o'
+"M404n"                        -> 'M''4''0''4''n'
+"Monochrome"                   -> 'M''o''n''o''c''h''r''o''m''e'
+"Laser"                        -> 'L''a''s''e''r'
+"Printer"                      -> 'P''r''i''n''t''e''r'
+"with"                         -> 'w''i''t''h'
+"Built"                        -> 'B''u''i''l''t'
+"-"                            -> '-'
+"in"                           -> 'i''n'
+"Ethernet"                     -> 'E''t''h''e''r''n''e''t'
+"("                            -> '('
+"W1A52A"                       -> 'W''1''A''5''2''A'
+")"                            -> ')'
+"GE"                           -> 'G''E'
+"Voluson"                      -> 'V''o''l''u''s''o''n'
+"E10"                          -> 'E''1''0'
+"Ultrasound"                   -> 'U''l''t''r''a''s''o''u''n''d'
+"Machine"                      -> 'M''a''c''h''i''n''e'
+"LG"                           -> 'L''G'
+"23"                           -> '2''3'
+"Cu"                           -> 'C''u'
+"."                            -> '.'
+"Ft"                           -> 'F''t'
+"."                            -> '.'
+"Smart"                        -> 'S''m''a''r''t'
+"Wi"                           -> 'W''i'
+"-"                            -> '-'
+"Fi"                           -> 'F''i'
+"Enabled"                      -> 'E''n''a''b''l''e''d'
+"InstaView"                    -> 'I''n''s''t''a''V''i''e''w'
+"Door"                         -> 'D''o''o''r'
+"-"                            -> '-'
+"in"                           -> 'i''n'
+"-"                            -> '-'
+"Door"                         -> 'D''o''o''r'
+"Counter"                      -> 'C''o''u''n''t''e''r'
+"-"                            -> '-'
+"Depth"                        -> 'D''e''p''t''h'
+"Refrigerator"                 -> 'R''e''f''r''i''g''e''r''a''t''o''r'
+"with"                         -> 'w''i''t''h'
+"Craft"                        -> 'C''r''a''f''t'
+"Ice"                          -> 'I''c''e'
+"Maker"                        -> 'M''a''k''e''r'
+"GFW850SPNRS"                  -> 'G''F''W''8''5''0''S''P''N''R''S'
+"GE"                           -> 'G''E'
+"28"                           -> '2''8'
+"""                            -> '"'
+"Front"                        -> 'F''r''o''n''t'
+"Load"                         -> 'L''o''a''d'
+"Steam"                        -> 'S''t''e''a''m'
+"Washer"                       -> 'W''a''s''h''e''r'
+"5"                            -> '5'
+"."                            -> '.'
+"0"                            -> '0'
+"Cu"                           -> 'C''u'
+"."                            -> '.'
+"Ft"                           -> 'F''t'
+"."                            -> '.'
+"with"                         -> 'w''i''t''h'
+"SmartDispense"                -> 'S''m''a''r''t''D''i''s''p''e''n''s''e'
+","                            -> ','
+"WiFi"                         -> 'W''i''F''i'
+","                            -> ','
+"OdorBlock"                    -> 'O''d''o''r''B''l''o''c''k'
+"and"                          -> 'a''n''d'
+"Sanitize"                     -> 'S''a''n''i''t''i''z''e'
+"and"                          -> 'a''n''d'
+"Allergen"                     -> 'A''l''l''e''r''g''e''n'
+"-"                            -> '-'
+"Royal"                        -> 'R''o''y''a''l'
+"Sapphire"                     -> 'S''a''p''p''h''i''r''e'
+"Kohler"                       -> 'K''o''h''l''e''r'
+"K"                            -> 'K'
+"-"                            -> '-'
+"3589"                         -> '3''5''8''9'
+"Cimarron"                     -> 'C''i''m''a''r''r''o''n'
+"Comfort"                      -> 'C''o''m''f''o''r''t'
+"Height"                       -> 'H''e''i''g''h''t'
+"Two"                          -> 'T''w''o'
+"-"                            -> '-'
+"Piece"                        -> 'P''i''e''c''e'
+"Elongated"                    -> 'E''l''o''n''g''a''t''e''d'
+"1"                            -> '1'
+"."                            -> '.'
+"6"                            -> '6'
+"GPF"                          -> 'G''P''F'
+"Toilet"                       -> 'T''o''i''l''e''t'
+"with"                         -> 'w''i''t''h'
+"AquaPiston"                   -> 'A''q''u''a''P''i''s''t''o''n'
+"Flush"                        -> 'F''l''u''s''h'
+"Technology"                   -> 'T''e''c''h''n''o''l''o''g''y'
+"."                            -> '.'
+","                            -> ','
+"Quick"                        -> 'Q''u''i''c''k'
+"Charge"                       -> 'C''h''a''r''g''e'
+"30W"                          -> '3''0''W'
+"Cargador"                     -> 'C''a''r''g''a''d''o''r'
+"3"                            -> '3'
+"."                            -> '.'
+"0"                            -> '0'
+"Cargador"                     -> 'C''a''r''g''a''d''o''r'
+"de"                           -> 'd''e'
+"Viaje"                        -> 'V''i''a''j''e'
+"Enchufe"                      -> 'E''n''c''h''u''f''e'
+"Cargador"                     -> 'C''a''r''g''a''d''o''r'
+"USB"                          -> 'U''S''B'
+"Carga"                        -> 'C''a''r''g''a'
+"Rápida"                       -> 'R''á''p''i''d''a'
+"con"                          -> 'c''o''n'
+"3"                            -> '3'
+"Puertos"                      -> 'P''u''e''r''t''o''s'
+"carga"                        -> 'c''a''r''g''a'
+"rápida"                       -> 'r''á''p''i''d''a'
+"Adaptador"                    -> 'A''d''a''p''t''a''d''o''r'
+"de"                           -> 'd''e'
+"Corriente"                    -> 'C''o''r''r''i''e''n''t''e'
+"para"                         -> 'p''a''r''a'
+"iPhone"                       -> 'i''P''h''o''n''e'
+"x"                            -> 'x'
+"8"                            -> '8'
+"7"                            -> '7'
+"Xiaomi"                       -> 'X''i''a''o''m''i'
+"Pocophone"                    -> 'P''o''c''o''p''h''o''n''e'
+"F1"                           -> 'F''1'
+"Mix"                          -> 'M''i''x'
+"3"                            -> '3'
+"A1"                           -> 'A''1'
+"Samsung"                      -> 'S''a''m''s''u''n''g'
+"S10"                          -> 'S''1''0'
+"S9"                           -> 'S''9'
+"S8AUKEY"                      -> 'S''8''A''U''K''E''Y'
+"Quick"                        -> 'Q''u''i''c''k'
+"Charge"                       -> 'C''h''a''r''g''e'
+"3"                            -> '3'
+"."                            -> '.'
+"0"                            -> '0'
+"Cargador"                     -> 'C''a''r''g''a''d''o''r'
+"de"                           -> 'd''e'
+"Pared"                        -> 'P''a''r''e''d'
+"39W"                          -> '3''9''W'
+"Dual"                         -> 'D''u''a''l'
+"Puerto"                       -> 'P''u''e''r''t''o'
+"Cargador"                     -> 'C''a''r''g''a''d''o''r'
+"Móvil"                        -> 'M''ó''v''i''l'
+"para"                         -> 'p''a''r''a'
+"Samsung"                      -> 'S''a''m''s''u''n''g'
+"Galaxy"                       -> 'G''a''l''a''x''y'
+"S8"                           -> 'S''8'
+"/"                            -> '/'
+"S8"                           -> 'S''8'
+"+"                            -> '+'
+"/"                            -> '/'
+"Note"                         -> 'N''o''t''e'
+"8"                            -> '8'
+","                            -> ','
+"iPhone"                       -> 'i''P''h''o''n''e'
+"XS"                           -> 'X''S'
+"/"                            -> '/'
+"XS"                           -> 'X''S'
+"Max"                          -> 'M''a''x'
+"/"                            -> '/'
+"XR"                           -> 'X''R'
+","                            -> ','
+"iPad"                         -> 'i''P''a''d'
+"Pro"                          -> 'P''r''o'
+"/"                            -> '/'
+"Air"                          -> 'A''i''r'
+","                            -> ','
+"HTC"                          -> 'H''T''C'
+"10"                           -> '1''0'
+","                            -> ','
+"LG"                           -> 'L''G'
+"G5"                           -> 'G''5'
+"/"                            -> '/'
+"G6"                           -> 'G''6'
+"AUKEY"                        -> 'A''U''K''E''Y'
+"Quick"                        -> 'Q''u''i''c''k'
+"Charge"                       -> 'C''h''a''r''g''e'
+"3"                            -> '3'
+"."                            -> '.'
+"0"                            -> '0'
+"Cargador"                     -> 'C''a''r''g''a''d''o''r'
+"USB"                          -> 'U''S''B'
+"60W"                          -> '6''0''W'
+"6"                            -> '6'
+"Puerto"                       -> 'P''u''e''r''t''o'
+"Cargador"                     -> 'C''a''r''g''a''d''o''r'
+"Móvil"                        -> 'M''ó''v''i''l'
+"para"                         -> 'p''a''r''a'
+"Samsung"                      -> 'S''a''m''s''u''n''g'
+"Galaxy"                       -> 'G''a''l''a''x''y'
+"S8"                           -> 'S''8'
+"/"                            -> '/'
+"S8"                           -> 'S''8'
+"+"                            -> '+'
+"/"                            -> '/'
+"Note"                         -> 'N''o''t''e'
+"8"                            -> '8'
+","                            -> ','
+"LG"                           -> 'L''G'
+"G5"                           -> 'G''5'
+"/"                            -> '/'
+"G6"                           -> 'G''6'
+","                            -> ','
+"Nexus"                        -> 'N''e''x''u''s'
+"5X"                           -> '5''X'
+"/"                            -> '/'
+"6P"                           -> '6''P'
+","                            -> ','
+"HTC"                          -> 'H''T''C'
+"10"                           -> '1''0'
+","                            -> ','
+"iPhone"                       -> 'i''P''h''o''n''e'
+"XS"                           -> 'X''S'
+"/"                            -> '/'
+"XS"                           -> 'X''S'
+"Max"                          -> 'M''a''x'
+"/"                            -> '/'
+"XR"                           -> 'X''R'
+","                            -> ','
+"iPad"                         -> 'i''P''a''d'
+"Pro"                          -> 'P''r''o'
+"/"                            -> '/'
+"Air"                          -> 'A''i''r'
+","                            -> ','
+"Moto"                         -> 'M''o''t''o'
+"G4"                           -> 'G''4'
+"SAMSUNG"                      -> 'S''A''M''S''U''N''G'
+"85"                           -> '8''5'
+"-"                            -> '-'
+"inch"                         -> 'i''n''c''h'
+"Class"                        -> 'C''l''a''s''s'
+"Crystal"                      -> 'C''r''y''s''t''a''l'
+"UHD"                          -> 'U''H''D'
+"TU"                           -> 'T''U'
+"-"                            -> '-'
+"8000"                         -> '8''0''0''0'
+"Series"                       -> 'S''e''r''i''e''s'
+"-"                            -> '-'
+"4K"                           -> '4''K'
+"UHD"                          -> 'U''H''D'
+"HDR"                          -> 'H''D''R'
+"Smart"                        -> 'S''m''a''r''t'
+"TV"                           -> 'T''V'
+"with"                         -> 'w''i''t''h'
+"Alexa"                        -> 'A''l''e''x''a'
+"Built"                        -> 'B''u''i''l''t'
+"-"                            -> '-'
+"in"                           -> 'i''n'
+"("                            -> '('
+"UN85TU8000FXZA"               -> 'U''N''8''5''T''U''8''0''0''0''F''X''Z''A'
+","                            -> ','
+"2020"                         -> '2''0''2''0'
+"Model"                        -> 'M''o''d''e''l'
+")"                            -> ')'
+"GE"                           -> 'G''E'
+"38846"                        -> '3''8''8''4''6'
+"Premium"                      -> 'P''r''e''m''i''u''m'
+"Slim"                         -> 'S''l''i''m'
+"LED"                          -> 'L''E''D'
+"Light"                        -> 'L''i''g''h''t'
+"Bar"                          -> 'B''a''r'
+","                            -> ','
+"18"                           -> '1''8'
+"Inch"                         -> 'I''n''c''h'
+"Under"                        -> 'U''n''d''e''r'
+"Cabinet"                      -> 'C''a''b''i''n''e''t'
+"Fixture"                      -> 'F''i''x''t''u''r''e'
+","                            -> ','
+"Plug"                         -> 'P''l''u''g'
+"-"                            -> '-'
+"In"                           -> 'I''n'
+","                            -> ','
+"Convertible"                  -> 'C''o''n''v''e''r''t''i''b''l''e'
+"to"                           -> 't''o'
+"Direct"                       -> 'D''i''r''e''c''t'
+"Wire"                         -> 'W''i''r''e'
+","                            -> ','
+"Linkable"                     -> 'L''i''n''k''a''b''l''e'
+"628"                          -> '6''2''8'
+"Lumens"                       -> 'L''u''m''e''n''s'
+","                            -> ','
+"3000K"                        -> '3''0''0''0''K'
+"Soft"                         -> 'S''o''f''t'
+"Warm"                         -> 'W''a''r''m'
+"White"                        -> 'W''h''i''t''e'
+","                            -> ','
+"High"                         -> 'H''i''g''h'
+"/"                            -> '/'
+"Off"                          -> 'O''f''f'
+"/"                            -> '/'
+"Low"                          -> 'L''o''w'
+","                            -> ','
+"Easy"                         -> 'E''a''s''y'
+"to"                           -> 't''o'
+"Install"                      -> 'I''n''s''t''a''l''l'
+","                            -> ','
+"18"                           -> '1''8'
+"Ft"                           -> 'F''t'
+"Bissell"                      -> 'B''i''s''s''e''l''l'
+"Cleanview"                    -> 'C''l''e''a''n''v''i''e''w'
+"Swivel"                       -> 'S''w''i''v''e''l'
+"Pet"                          -> 'P''e''t'
+"Upright"                      -> 'U''p''r''i''g''h''t'
+"Bagless"                      -> 'B''a''g''l''e''s''s'
+"Vacuum"                       -> 'V''a''c''u''u''m'
+"Cleaner"                      -> 'C''l''e''a''n''e''r'
+"Trane20"                      -> 'T''r''a''n''e''2''0'
+","                            -> ','
+"000"                          -> '0''0''0'
+"-"                            -> '-'
+"Watt"                         -> 'W''a''t''t'
+"1"                            -> '1'
+"-"                            -> '-'
+"Phase"                        -> 'P''h''a''s''e'
+"LPG"                          -> 'L''P''G'
+"/"                            -> '/'
+"NG"                           -> 'N''G'
+"Liquid"                       -> 'L''i''q''u''i''d'
+"Cooled"                       -> 'C''o''o''l''e''d'
+"Whole"                        -> 'W''h''o''l''e'
+"House"                        -> 'H''o''u''s''e'
+"Standby"                      -> 'S''t''a''n''d''b''y'
+"Generator"                    -> 'G''e''n''e''r''a''t''o''r'
+"."                            -> '.'
+
+Token Type                     Toke Type Count:    
+--------------------------------------------------
+"Number"                       -> 49                  
+"Math Symbol"                  -> 40                  
+"Letter - Capital"             -> 5                   
+"Letter - Lowercase"           -> 2                   
+"Word - Capitalized"           -> 164                 
+"Word - Lowercase"             -> 37                  
+"Alphanumerics"                -> 94                  
+"Punctuation"                  -> 51                  
+"Unknown Character"            -> 4                   
