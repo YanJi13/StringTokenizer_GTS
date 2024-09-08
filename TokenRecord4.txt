@@ -1,66 +1,110 @@
 
 Token                          Classification      
 --------------------------------------------------
-"c"                            -> Letter - Lowercase  
-"r"                            -> Letter - Lowercase  
+"This"                         -> Word - Capitalized  
+"is"                           -> Word - Lowercase    
+"your"                         -> Word - Lowercase    
+"new"                          -> Word - Lowercase    
+"vault"                        -> Word - Lowercase    
+"."                            -> Punctuation         
+"Make"                         -> Word - Capitalized  
 "a"                            -> Letter - Lowercase  
-"p"                            -> Letter - Lowercase  
+"note"                         -> Word - Lowercase    
+"of"                           -> Word - Lowercase    
+"something"                    -> Word - Lowercase    
 ","                            -> Punctuation         
-"m"                            -> Letter - Lowercase  
-"y"                            -> Letter - Lowercase  
-"g"                            -> Letter - Lowercase  
-"u"                            -> Letter - Lowercase  
-"t"                            -> Letter - Lowercase  
-"h"                            -> Letter - Lowercase  
-"u"                            -> Letter - Lowercase  
-"r"                            -> Letter - Lowercase  
-"t"                            -> Letter - Lowercase  
-"s"                            -> Letter - Lowercase  
+"["                            -> Punctuation         
+"["                            -> Punctuation         
+"create"                       -> Word - Lowercase    
+"a"                            -> Letter - Lowercase  
+"link"                         -> Word - Lowercase    
+"]"                            -> Punctuation         
+"]"                            -> Punctuation         
 ","                            -> Punctuation         
-"a"                            -> Letter - Lowercase  
-"a"                            -> Letter - Lowercase  
-"a"                            -> Letter - Lowercase  
-"a"                            -> Letter - Lowercase  
-"h"                            -> Letter - Lowercase  
-"h"                            -> Letter - Lowercase  
-"!"                            -> Punctuation         
-"!"                            -> Punctuation         
+"or"                           -> Word - Lowercase    
+"try"                          -> Word - Lowercase    
+"["                            -> Punctuation         
+"the"                          -> Word - Lowercase    
+"Importer"                     -> Word - Capitalized  
+"]"                            -> Punctuation         
+"("                            -> Punctuation         
+"thisisahyperlink"             -> Word - Lowercase    
+")"                            -> Punctuation         
+"."                            -> Punctuation         
+"When"                         -> Word - Capitalized  
+"you"                          -> Word - Lowercase    
+"'"                            -> Punctuation         
+"re"                           -> Word - Lowercase    
+"ready"                        -> Word - Lowercase    
+","                            -> Punctuation         
+"delete"                       -> Word - Lowercase    
+"this"                         -> Word - Lowercase    
+"note"                         -> Word - Lowercase    
+"and"                          -> Word - Lowercase    
+"make"                         -> Word - Lowercase    
+"the"                          -> Word - Lowercase    
+"vault"                        -> Word - Lowercase    
+"your"                         -> Word - Lowercase    
+"own"                          -> Word - Lowercase    
+"."                            -> Punctuation         
 
 Token                          Individual Characters
 --------------------------------------------------
-"c"                            -> 'c'
-"r"                            -> 'r'
+"This"                         -> 'T''h''i''s'
+"is"                           -> 'i''s'
+"your"                         -> 'y''o''u''r'
+"new"                          -> 'n''e''w'
+"vault"                        -> 'v''a''u''l''t'
+"."                            -> '.'
+"Make"                         -> 'M''a''k''e'
 "a"                            -> 'a'
-"p"                            -> 'p'
+"note"                         -> 'n''o''t''e'
+"of"                           -> 'o''f'
+"something"                    -> 's''o''m''e''t''h''i''n''g'
 ","                            -> ','
-"m"                            -> 'm'
-"y"                            -> 'y'
-"g"                            -> 'g'
-"u"                            -> 'u'
-"t"                            -> 't'
-"h"                            -> 'h'
-"u"                            -> 'u'
-"r"                            -> 'r'
-"t"                            -> 't'
-"s"                            -> 's'
+"["                            -> '['
+"["                            -> '['
+"create"                       -> 'c''r''e''a''t''e'
+"a"                            -> 'a'
+"link"                         -> 'l''i''n''k'
+"]"                            -> ']'
+"]"                            -> ']'
 ","                            -> ','
-"a"                            -> 'a'
-"a"                            -> 'a'
-"a"                            -> 'a'
-"a"                            -> 'a'
-"h"                            -> 'h'
-"h"                            -> 'h'
-"!"                            -> '!'
-"!"                            -> '!'
+"or"                           -> 'o''r'
+"try"                          -> 't''r''y'
+"["                            -> '['
+"the"                          -> 't''h''e'
+"Importer"                     -> 'I''m''p''o''r''t''e''r'
+"]"                            -> ']'
+"("                            -> '('
+"thisisahyperlink"             -> 't''h''i''s''i''s''a''h''y''p''e''r''l''i''n''k'
+")"                            -> ')'
+"."                            -> '.'
+"When"                         -> 'W''h''e''n'
+"you"                          -> 'y''o''u'
+"'"                            -> '''
+"re"                           -> 'r''e'
+"ready"                        -> 'r''e''a''d''y'
+","                            -> ','
+"delete"                       -> 'd''e''l''e''t''e'
+"this"                         -> 't''h''i''s'
+"note"                         -> 'n''o''t''e'
+"and"                          -> 'a''n''d'
+"make"                         -> 'm''a''k''e'
+"the"                          -> 't''h''e'
+"vault"                        -> 'v''a''u''l''t'
+"your"                         -> 'y''o''u''r'
+"own"                          -> 'o''w''n'
+"."                            -> '.'
 
 Token Type                     Toke Type Count:    
 --------------------------------------------------
 "Number"                       -> 0                   
 "Math Symbol"                  -> 0                   
 "Letter - Capital"             -> 0                   
-"Letter - Lowercase"           -> 20                  
-"Word - Capitalized"           -> 0                   
-"Word - Lowercase"             -> 0                   
+"Letter - Lowercase"           -> 2                   
+"Word - Capitalized"           -> 4                   
+"Word - Lowercase"             -> 25                  
 "Alphanumerics"                -> 0                   
-"Punctuation"                  -> 4                   
-"Unknown Character"            -> 0                   
+"Punctuation"                  -> 15                  
+"Out of Range"                 -> 0                   

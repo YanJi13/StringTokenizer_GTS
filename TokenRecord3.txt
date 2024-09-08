@@ -1,66 +1,60 @@
 
 Token                          Classification      
 --------------------------------------------------
-"c"                            -> Letter - Lowercase  
-"r"                            -> Letter - Lowercase  
-"a"                            -> Letter - Lowercase  
-"p"                            -> Letter - Lowercase  
-","                            -> Punctuation         
-"m"                            -> Letter - Lowercase  
-"y"                            -> Letter - Lowercase  
-"g"                            -> Letter - Lowercase  
-"u"                            -> Letter - Lowercase  
-"t"                            -> Letter - Lowercase  
-"h"                            -> Letter - Lowercase  
-"u"                            -> Letter - Lowercase  
-"r"                            -> Letter - Lowercase  
-"t"                            -> Letter - Lowercase  
-"s"                            -> Letter - Lowercase  
-","                            -> Punctuation         
-"a"                            -> Letter - Lowercase  
-"a"                            -> Letter - Lowercase  
-"a"                            -> Letter - Lowercase  
-"a"                            -> Letter - Lowercase  
-"h"                            -> Letter - Lowercase  
-"h"                            -> Letter - Lowercase  
-"!"                            -> Punctuation         
-"!"                            -> Punctuation         
+"9"                            -> Number              
+"1"                            -> Number              
+"9"                            -> Number              
+"3"                            -> Number              
+"9"                            -> Number              
+"1"                            -> Number              
+"."                            -> Punctuation         
+"0"                            -> Number              
+"2"                            -> Number              
+"."                            -> Punctuation         
+"3"                            -> Number              
+"."                            -> Punctuation         
+"4"                            -> Number              
+"."                            -> Punctuation         
+"5"                            -> Number              
+"4"                            -> Number              
+"/"                            -> Math Symbol         
+"5"                            -> Number              
+"6"                            -> Number              
+"/"                            -> Math Symbol         
+"7"                            -> Number              
 
 Token                          Individual Characters
 --------------------------------------------------
-"c"                            -> 'c'
-"r"                            -> 'r'
-"a"                            -> 'a'
-"p"                            -> 'p'
-","                            -> ','
-"m"                            -> 'm'
-"y"                            -> 'y'
-"g"                            -> 'g'
-"u"                            -> 'u'
-"t"                            -> 't'
-"h"                            -> 'h'
-"u"                            -> 'u'
-"r"                            -> 'r'
-"t"                            -> 't'
-"s"                            -> 's'
-","                            -> ','
-"a"                            -> 'a'
-"a"                            -> 'a'
-"a"                            -> 'a'
-"a"                            -> 'a'
-"h"                            -> 'h'
-"h"                            -> 'h'
-"!"                            -> '!'
-"!"                            -> '!'
+"9"                            -> '9'
+"1"                            -> '1'
+"9"                            -> '9'
+"3"                            -> '3'
+"9"                            -> '9'
+"1"                            -> '1'
+"."                            -> '.'
+"0"                            -> '0'
+"2"                            -> '2'
+"."                            -> '.'
+"3"                            -> '3'
+"."                            -> '.'
+"4"                            -> '4'
+"."                            -> '.'
+"5"                            -> '5'
+"4"                            -> '4'
+"/"                            -> '/'
+"5"                            -> '5'
+"6"                            -> '6'
+"/"                            -> '/'
+"7"                            -> '7'
 
 Token Type                     Toke Type Count:    
 --------------------------------------------------
-"Number"                       -> 0                   
-"Math Symbol"                  -> 0                   
+"Number"                       -> 15                  
+"Math Symbol"                  -> 2                   
 "Letter - Capital"             -> 0                   
-"Letter - Lowercase"           -> 20                  
+"Letter - Lowercase"           -> 0                   
 "Word - Capitalized"           -> 0                   
 "Word - Lowercase"             -> 0                   
 "Alphanumerics"                -> 0                   
 "Punctuation"                  -> 4                   
-"Unknown Character"            -> 0                   
+"Out of Range"                 -> 0                   

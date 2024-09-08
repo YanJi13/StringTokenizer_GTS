@@ -47,4 +47,4 @@ Token Type                     Toke Type Count:
 "Word - Lowercase"             -> 11                  
 "Alphanumerics"                -> 0                   
 "Punctuation"                  -> 2                   
-"Unknown Character"            -> 0                   
+"Out of Range"                 -> 0                   

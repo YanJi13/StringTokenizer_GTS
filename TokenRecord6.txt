@@ -1,46 +1,142 @@
 
 Token                          Classification      
 --------------------------------------------------
-"9"                            -> Number              
-"1"                            -> Number              
-"9"                            -> Number              
-"3"                            -> Number              
-"9"                            -> Number              
-"0"                            -> Number              
+"~"                            -> Punctuation         
+"~"                            -> Punctuation         
+"!"                            -> Punctuation         
+"!"                            -> Punctuation         
+"@"                            -> Punctuation         
+"@"                            -> Punctuation         
+"#"                            -> Punctuation         
+"#"                            -> Punctuation         
+"$"                            -> Punctuation         
+"$"                            -> Punctuation         
+"%"                            -> Punctuation         
+"%"                            -> Punctuation         
+"^"                            -> Punctuation         
+"^"                            -> Punctuation         
+"&"                            -> Punctuation         
+"&"                            -> Punctuation         
+"*"                            -> Math Symbol         
+"*"                            -> Math Symbol         
+"("                            -> Punctuation         
+"("                            -> Punctuation         
+")"                            -> Punctuation         
+")"                            -> Punctuation         
+"-"                            -> Math Symbol         
+"-"                            -> Math Symbol         
+"="                            -> Math Symbol         
+"="                            -> Math Symbol         
+"_"                            -> Punctuation         
+"_"                            -> Punctuation         
+"+"                            -> Math Symbol         
+"+"                            -> Math Symbol         
+"{"                            -> Punctuation         
+"{"                            -> Punctuation         
+"}"                            -> Punctuation         
+"}"                            -> Punctuation         
+"["                            -> Punctuation         
+"["                            -> Punctuation         
+"]"                            -> Punctuation         
+"]"                            -> Punctuation         
+"|"                            -> Punctuation         
+"|"                            -> Punctuation         
+"\"                            -> Punctuation         
+"\"                            -> Punctuation         
+":"                            -> Punctuation         
+":"                            -> Punctuation         
+";"                            -> Punctuation         
+";"                            -> Punctuation         
+"""                            -> Punctuation         
+"""                            -> Punctuation         
+"'"                            -> Punctuation         
+"'"                            -> Punctuation         
+"<"                            -> Math Symbol         
+"<"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+","                            -> Punctuation         
+","                            -> Punctuation         
 "."                            -> Punctuation         
-"1"                            -> Number              
-"0"                            -> Number              
 "."                            -> Punctuation         
-"2"                            -> Number              
-"8"                            -> Number              
-"."                            -> Punctuation         
-"6"                            -> Number              
+"/"                            -> Math Symbol         
+"/"                            -> Math Symbol         
+"?"                            -> Punctuation         
+"?"                            -> Punctuation         
 
 Token                          Individual Characters
 --------------------------------------------------
-"9"                            -> '9'
-"1"                            -> '1'
-"9"                            -> '9'
-"3"                            -> '3'
-"9"                            -> '9'
-"0"                            -> '0'
+"~"                            -> '~'
+"~"                            -> '~'
+"!"                            -> '!'
+"!"                            -> '!'
+"@"                            -> '@'
+"@"                            -> '@'
+"#"                            -> '#'
+"#"                            -> '#'
+"$"                            -> '$'
+"$"                            -> '$'
+"%"                            -> '%'
+"%"                            -> '%'
+"^"                            -> '^'
+"^"                            -> '^'
+"&"                            -> '&'
+"&"                            -> '&'
+"*"                            -> '*'
+"*"                            -> '*'
+"("                            -> '('
+"("                            -> '('
+")"                            -> ')'
+")"                            -> ')'
+"-"                            -> '-'
+"-"                            -> '-'
+"="                            -> '='
+"="                            -> '='
+"_"                            -> '_'
+"_"                            -> '_'
+"+"                            -> '+'
+"+"                            -> '+'
+"{"                            -> '{'
+"{"                            -> '{'
+"}"                            -> '}'
+"}"                            -> '}'
+"["                            -> '['
+"["                            -> '['
+"]"                            -> ']'
+"]"                            -> ']'
+"|"                            -> '|'
+"|"                            -> '|'
+"\"                            -> '\'
+"\"                            -> '\'
+":"                            -> ':'
+":"                            -> ':'
+";"                            -> ';'
+";"                            -> ';'
+"""                            -> '"'
+"""                            -> '"'
+"'"                            -> '''
+"'"                            -> '''
+"<"                            -> '<'
+"<"                            -> '<'
+">"                            -> '>'
+">"                            -> '>'
+","                            -> ','
+","                            -> ','
 "."                            -> '.'
-"1"                            -> '1'
-"0"                            -> '0'
 "."                            -> '.'
-"2"                            -> '2'
-"8"                            -> '8'
-"."                            -> '.'
-"6"                            -> '6'
+"/"                            -> '/'
+"/"                            -> '/'
+"?"                            -> '?'
+"?"                            -> '?'
 
 Token Type                     Toke Type Count:    
 --------------------------------------------------
-"Number"                       -> 11                  
-"Math Symbol"                  -> 0                   
+"Number"                       -> 0                   
+"Math Symbol"                  -> 14                  
 "Letter - Capital"             -> 0                   
 "Letter - Lowercase"           -> 0                   
 "Word - Capitalized"           -> 0                   
 "Word - Lowercase"             -> 0                   
 "Alphanumerics"                -> 0                   
-"Punctuation"                  -> 3                   
-"Unknown Character"            -> 0                   
+"Punctuation"                  -> 48                  
+"Out of Range"                 -> 0                   
