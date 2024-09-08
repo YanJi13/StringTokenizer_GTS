@@ -58,6 +58,8 @@ public class TokenProcessor {
             // removes delimiters
             seekDelimiters.useDelimiter("[>]");
 
+            System.out.println(tokenObj.getToBeTokenValue());
+
             // adds the elements of the user input to an array list
             while (seekDelimiters.hasNext()) {
                 String tokenNoDelim = seekDelimiters.next();
@@ -70,11 +72,6 @@ public class TokenProcessor {
             writeToRecord.write("\n" + "-".repeat(50) + "\n");
 
             for (int k = 0; k < tokensToProcess.size(); k++) {
-                // place back the greater than signs
-                // that were temporarily replaced by the placeholders
-                if (tokensToProcess.get(k).equals(DataNVars.putPlaceholderGTS())) {
-                    tokensToProcess.set(k, ">");
-                }
 
                 writeToRecord.write(String.format("%-30s -> %-20s", "\"" + tokensToProcess.get(k) + "\"", classifyTokens(tokensToProcess.get(k))));
                 writeToRecord.newLine();
@@ -138,7 +135,7 @@ public class TokenProcessor {
             numberCount++;
             return "Number";
         
-        }  else if (token.matches("[+\\-*/=<>]")) {
+        }  else if (token.matches("[+\\-*/=<]")) {
             
             mathsymCount++;
             return "Math Symbol";

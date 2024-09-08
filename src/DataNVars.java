@@ -17,10 +17,6 @@ public class DataNVars {
     public String getToBeTokenValue() {
         return this.tokenizedUserInputValue;
     }
-
-    public static String putPlaceholderGTS() {
-        return "GreaterThanSign";
-    }
 }
 
 

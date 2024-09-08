@@ -4,24 +4,21 @@
  */
 public class InstallDelimiter {
 
-    private StringBuilder modifiedUserInput = new StringBuilder();
-
     private String toBeTokenizedUserInput;
     private String tokenizedUserInput;
     
     public InstallDelimiter(InputGUI inputGUI, DataNVars tokenObj) {
+        
+        toBeTokenizedUserInput = inputGUI.getTextInputValue();
+        toBeTokenizedUserInput = toBeTokenizedUserInput.replaceAll(">", " ");
 
-        // replaces ">" input with a placeholder so it wont cause
-        // problems in the delimiter installation process 
-        addGreaterThanSignPlaceholder(inputGUI.getTextInputValue());
-
-        toBeTokenizedUserInput = modifiedUserInput.toString();
         tokenizedUserInput = handleSymbolsInInput(toBeTokenizedUserInput);
 
         // add whitespace in between words and symbols then replace it with the delimiter 
         tokenizedUserInput = tokenizedUserInput.replaceAll("\\s+", ">"); 
 
         tokenObj.setToBeTokenValue(tokenizedUserInput);
+        System.out.println(tokenObj.getToBeTokenValue());
         
     }
 
@@ -64,27 +61,5 @@ public class InstallDelimiter {
         }
 
         return finalToBeTokenized.toString();
-    }
-    
-    private StringBuilder addGreaterThanSignPlaceholder(String userInput) {
-        // due to how the program puts the delimiters, it can disrupt things later in the process
-        // if the user inputs a greater than sign, it can be deleted by the program thus changing the expected output
-
-        // iterates through the user input
-        for(int j = 0; j < userInput.length(); j++) {
-
-            char inputChar = userInput.charAt(j);
-
-            // if it finds a greater than sign, it replaces it with a placeholder
-            if(inputChar == '>') {
-
-                modifiedUserInput.append(DataNVars.putPlaceholderGTS()+ ' ');
-            } else {
-
-                modifiedUserInput.append(inputChar);
-            }
-        }
-
-        return modifiedUserInput;
     }
 }
