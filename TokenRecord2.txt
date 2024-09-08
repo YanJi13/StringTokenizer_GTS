@@ -1,0 +1,74 @@
+
+Token                          Classification      
+--------------------------------------------------
+"O"                            -> Letter - Capital    
+"h"                            -> Letter - Lowercase  
+"m"                            -> Letter - Lowercase  
+"y"                            -> Letter - Lowercase  
+"g"                            -> Letter - Lowercase  
+"o"                            -> Letter - Lowercase  
+"d"                            -> Letter - Lowercase  
+","                            -> Punctuation         
+"m"                            -> Letter - Lowercase  
+"y"                            -> Letter - Lowercase  
+"g"                            -> Letter - Lowercase  
+"u"                            -> Letter - Lowercase  
+"t"                            -> Letter - Lowercase  
+"h"                            -> Letter - Lowercase  
+"u"                            -> Letter - Lowercase  
+"r"                            -> Letter - Lowercase  
+"t"                            -> Letter - Lowercase  
+"s"                            -> Letter - Lowercase  
+","                            -> Punctuation         
+"A"                            -> Letter - Capital    
+"A"                            -> Letter - Capital    
+"A"                            -> Letter - Capital    
+"A"                            -> Letter - Capital    
+"H"                            -> Letter - Capital    
+"H"                            -> Letter - Capital    
+"H"                            -> Letter - Capital    
+"!"                            -> Punctuation         
+"!"                            -> Punctuation         
+
+Token                          Individual Characters
+--------------------------------------------------
+"O"                            -> 'O'
+"h"                            -> 'h'
+"m"                            -> 'm'
+"y"                            -> 'y'
+"g"                            -> 'g'
+"o"                            -> 'o'
+"d"                            -> 'd'
+","                            -> ','
+"m"                            -> 'm'
+"y"                            -> 'y'
+"g"                            -> 'g'
+"u"                            -> 'u'
+"t"                            -> 't'
+"h"                            -> 'h'
+"u"                            -> 'u'
+"r"                            -> 'r'
+"t"                            -> 't'
+"s"                            -> 's'
+","                            -> ','
+"A"                            -> 'A'
+"A"                            -> 'A'
+"A"                            -> 'A'
+"A"                            -> 'A'
+"H"                            -> 'H'
+"H"                            -> 'H'
+"H"                            -> 'H'
+"!"                            -> '!'
+"!"                            -> '!'
+
+Token Type                     Toke Type Count:    
+--------------------------------------------------
+"Number"                       -> 0                   
+"Math Symbol"                  -> 0                   
+"Letter - Capital"             -> 8                   
+"Letter - Lowercase"           -> 16                  
+"Word - Capitalized"           -> 0                   
+"Word - Lowercase"             -> 0                   
+"Alphanumerics"                -> 0                   
+"Punctuation"                  -> 4                   
+"Out of Range"                 -> 0                   
