@@ -56,17 +56,21 @@ public class TokenProcessor {
             Scanner seekDelimiters = new Scanner(tokenObj.getToBeTokenValue());
 
             // removes delimiters
-            seekDelimiters.useDelimiter("[>]");
-
-            System.out.println(tokenObj.getToBeTokenValue());
+            seekDelimiters.useDelimiter(">");
 
             // adds the elements of the user input to an array list
             while (seekDelimiters.hasNext()) {
-                String tokenNoDelim = seekDelimiters.next();
-                tokensToProcess.add(tokenNoDelim);
-            }
+
+                String tokenNoDelim = seekDelimiters.next();      
+
+                // chck if token is emtpy and only add non-empty tokens to the list
+                if(!tokenNoDelim.isEmpty()) {
+
+                    tokensToProcess.add(tokenNoDelim);
+                }
+            }         
             seekDelimiters.close();
-            
+
             // phase 1 header for clarity
             writeToRecord.write(String.format("\n%-30s %-20s", "Token", "Classification"));
             writeToRecord.write("\n" + "-".repeat(50) + "\n");
@@ -160,7 +164,7 @@ public class TokenProcessor {
             wordLowCount++;
             return "Word - Lowercase";
         
-        } else if (token.matches("[a-zA-Z0-9]+")) {
+        } else if (token.matches("[a-zA-Z]+ [0-9]+")) {
 
             alphanumericsCount++;
             return "Alphanumerics";

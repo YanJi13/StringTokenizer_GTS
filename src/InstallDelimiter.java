@@ -7,19 +7,27 @@ public class InstallDelimiter {
     private String toBeTokenizedUserInput;
     private String tokenizedUserInput;
     
+    
     public InstallDelimiter(InputGUI inputGUI, DataNVars tokenObj) {
         
         toBeTokenizedUserInput = inputGUI.getTextInputValue();
-        toBeTokenizedUserInput = toBeTokenizedUserInput.replaceAll(">", " ");
-
         tokenizedUserInput = handleSymbolsInInput(toBeTokenizedUserInput);
 
-        // add whitespace in between words and symbols then replace it with the delimiter 
-        tokenizedUserInput = tokenizedUserInput.replaceAll("\\s+", ">"); 
+        // add delimiters automatically based on token classificaton
+        if(InputGUI.autoDeTo == true) {
 
-        tokenObj.setToBeTokenValue(tokenizedUserInput);
-        System.out.println(tokenObj.getToBeTokenValue());
+            // replaces all whitespace with the delimiter
+            tokenizedUserInput = tokenizedUserInput.replaceAll("\\s+", ">");
+            tokenObj.setToBeTokenValue(tokenizedUserInput);
+            InputGUI.autoDeTo = false;
         
+        // user needs to put the delimiters manually
+        } else {
+
+            // add whitespace in between words and symbols then replace it with the delimiter 
+            tokenizedUserInput = tokenizedUserInput.replaceAll("\\s+", "");
+            tokenObj.setToBeTokenValue(tokenizedUserInput);
+        }       
     }
 
     private String handleSymbolsInInput(String token) {

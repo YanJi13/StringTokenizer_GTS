@@ -20,11 +20,12 @@ public class InputGUI implements ActionListener {
 
     DataNVars tokenObj = new DataNVars();
    
-    public static JButton tokenizeButton, clearInputButton;
+    public static JButton tokenizeButton, clearInputButton, automaticDelimiterTokenizeButton;
 
     public static Object getTextInputValue;
-    private JTextArea inputTextArea, outputTextArea;
+    public static boolean autoDeTo = false;
 
+    private JTextArea inputTextArea, outputTextArea;
     private JFrame inputFrame;
     private JPanel inputPanel;
     private JScrollPane inputTextPane, outputTextPane;
@@ -47,6 +48,7 @@ public class InputGUI implements ActionListener {
         outputTextPane = new JScrollPane(outputTextArea);
         tokenizeButton = new JButton();
         clearInputButton = new JButton();
+        automaticDelimiterTokenizeButton = new JButton();
 
         inputFrame.setVisible(true);
         inputFrame.setLocationRelativeTo(null);
@@ -57,6 +59,7 @@ public class InputGUI implements ActionListener {
         inputPanel.add(inputTextPane);
         inputPanel.add(tokenizeButton);     
         inputPanel.add(clearInputButton);
+        inputPanel.add(automaticDelimiterTokenizeButton);
         inputPanel.add(outputTextPane);
         inputPanel.setVisible(true);
         inputPanel.setSize(200,20);
@@ -88,7 +91,14 @@ public class InputGUI implements ActionListener {
         clearInputButton.setText("Clear Text");
         clearInputButton.setForeground(DataNVars.standardForegroundColor);
         clearInputButton.setFocusable(false);
-        clearInputButton.addActionListener(this);    
+        clearInputButton.addActionListener(this);
+        
+        automaticDelimiterTokenizeButton.setVisible(true);
+        automaticDelimiterTokenizeButton.setText("Add Delimiters Automatically");
+        automaticDelimiterTokenizeButton.setForeground(DataNVars.standardForegroundColor);
+        automaticDelimiterTokenizeButton.setFocusable(false);
+        automaticDelimiterTokenizeButton.addActionListener(this);
+        
     }
     public void actionPerformed(ActionEvent e) {
 
@@ -134,6 +144,11 @@ public class InputGUI implements ActionListener {
 
             inputTextArea.setText("");
             outputTextArea.setText("");
+        } 
+
+        else if(e.getSource() == automaticDelimiterTokenizeButton) {                
+
+            autoDeTo = true;
         }
             
     }
