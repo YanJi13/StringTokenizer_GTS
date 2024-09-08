@@ -39,6 +39,7 @@ Token                          Individual Characters
 
 Token Type                     Toke Type Count:    
 --------------------------------------------------
+<<<<<<< HEAD
 "Number"                       -> 0                   
 "Math Symbol"                  -> 0                   
 "Letter - Capital"             -> 1                   
@@ -47,4 +48,14 @@ Token Type                     Toke Type Count:
 "Word - Lowercase"             -> 11                  
 "Alphanumerics"                -> 0                   
 "Punctuation"                  -> 2                   
+=======
+"Number"                       -> 0                   
+"Math Symbol"                  -> 0                   
+"Letter - Capital"             -> 1                   
+"Letter - Lowercase"           -> 1                   
+"Word - Capitalized"           -> 1                   
+"Word - Lowercase"             -> 11                  
+"Alphanumerics"                -> 0                   
+"Punctuation"                  -> 2                   
+>>>>>>> d53670c8f4c3707d3d462a4efebfb5cdb6055bd3
 "Out of Range"                 -> 0                   

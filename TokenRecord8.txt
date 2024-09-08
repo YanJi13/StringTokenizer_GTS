@@ -1,6 +1,7 @@
 
 Token                          Classification      
 --------------------------------------------------
+<<<<<<< HEAD
 "Delimiter"                    -> Word - Capitalized  
 "Test"                         -> Word - Capitalized  
 ":"                            -> Punctuation         
@@ -223,4 +224,228 @@ Token Type                     Toke Type Count:
 "Word - Lowercase"             -> 0                   
 "Alphanumerics"                -> 0                   
 "Punctuation"                  -> 1                   
+=======
+"Delimiter"                    -> Word - Capitalized  
+"Test"                         -> Word - Capitalized  
+":"                            -> Punctuation         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+">"                            -> Math Symbol         
+
+Token                          Individual Characters
+--------------------------------------------------
+"Delimiter"                    -> 'D''e''l''i''m''i''t''e''r'
+"Test"                         -> 'T''e''s''t'
+":"                            -> ':'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+">"                            -> '>'
+
+Token Type                     Toke Type Count:    
+--------------------------------------------------
+"Number"                       -> 0                   
+"Math Symbol"                  -> 101                 
+"Letter - Capital"             -> 0                   
+"Letter - Lowercase"           -> 0                   
+"Word - Capitalized"           -> 2                   
+"Word - Lowercase"             -> 0                   
+"Alphanumerics"                -> 0                   
+"Punctuation"                  -> 1                   
+>>>>>>> d53670c8f4c3707d3d462a4efebfb5cdb6055bd3
 "Out of Range"                 -> 0                   
