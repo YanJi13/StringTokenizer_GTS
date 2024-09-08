@@ -122,7 +122,7 @@ public class TokenProcessor {
             writeToRecord.newLine();
             writeToRecord.write(String.format("%-30s -> %-20s", "\"" + "Punctuation" + "\"", punctuationCount));
             writeToRecord.newLine();
-            writeToRecord.write(String.format("%-30s -> %-20s", "\"" + "Unknown Character" + "\"", unknownCharCount));
+            writeToRecord.write(String.format("%-30s -> %-20s", "\"" + "Out of Range" + "\"", unknownCharCount));
             
             writeToRecord.close();
 
@@ -176,7 +176,7 @@ public class TokenProcessor {
         } else {
 
             unknownCharCount++;
-            return "Unknown Character";
+            return "Out of Range";
         }
     }
 }
