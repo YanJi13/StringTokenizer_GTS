@@ -72,7 +72,7 @@ public class TokenProcessor {
             seekDelimiters.close();
 
             // phase 1 header for clarity
-            writeToRecord.write(String.format("\n%-30s %-20s", "Token", "Classification"));
+            writeToRecord.write(String.format("%-30s %-20s", "Token", "Classification"));
             writeToRecord.write("\n" + "-".repeat(50) + "\n");
 
             for (int k = 0; k < tokensToProcess.size(); k++) {
