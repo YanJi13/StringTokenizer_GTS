@@ -46,8 +46,9 @@ public class InstallDelimiter {
                 
                 // checks if the character before the current index is not whitespace and if it isnt, 
                 // adds a whitespace in between the previous character and the current one
-                // used for signs usually followed by spaces like commas and periods
-                if(c > 0 && token.charAt(c - 1) == ',' || token.charAt(c - 1) == '.') { 
+                // used for signs usually followed by spaces like commas, periods, exclamation marks, and question marks
+                // this is used for the automatic delimiter system (experimental)
+                if(c > 0 && token.charAt(c - 1) != ' ') { 
 
                     finalToBeTokenized.append(' ');
                 }
