@@ -139,7 +139,7 @@ public class TokenProcessor {
             numberCount++;
             return "Number";
         
-        }  else if (token.matches("[+\\-*/=<]")) {
+        }  else if (token.matches("(//|[+\\-*/=<])")) {
             
             mathsymCount++;
             return "Math Symbol";
@@ -154,17 +154,17 @@ public class TokenProcessor {
             letterLowCount++;
             return "Letter - Lowercase";
         
-        } else if (token.matches("[A-Z][a-z]*")) {
+        } else if (token.matches("[A-Z][a-z'-]+")) {
 
             wordCapCount++;
             return "Word - Capitalized";
         
-        } else if (token.matches("[a-z]+")) {
+        } else if (token.matches("[a-z'-]+")) {
 
             wordLowCount++;
             return "Word - Lowercase";
         
-        } else if (token.matches("[a-zA-Z]+ [0-9]+")) {
+        } else if (token.matches("[a-zA-Z0-9'-]+")) {
 
             alphanumericsCount++;
             return "Alphanumerics";

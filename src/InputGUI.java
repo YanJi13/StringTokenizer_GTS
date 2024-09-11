@@ -8,11 +8,12 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
-import javax.swing.UIManager;
 import javax.swing.JButton;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+
+import javax.swing.UIManager;
 
 import com.formdev.flatlaf.FlatDarculaLaf;
 
@@ -22,7 +23,7 @@ public class InputGUI implements ActionListener {
    
     public static JButton tokenizeButton, clearInputButton, automaticDelimiterTokenizeButton;
 
-    public static Object getTextInputValue;
+    public static String getTextInputValue;
     public static boolean autoDeTo = false;
 
     private JTextArea inputTextArea, outputTextArea;
@@ -35,8 +36,10 @@ public class InputGUI implements ActionListener {
     public InputGUI() {
 
         try {
-            UIManager.setLookAndFeel( new FlatDarculaLaf() );
-        } catch( Exception ex ) {
+
+            UIManager.setLookAndFeel( new FlatDarculaLaf());
+        } catch (Exception ex) {
+    
             System.err.println( "Failed to initialize LaF" );
         }
 

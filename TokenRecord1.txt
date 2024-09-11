@@ -1,0 +1,19 @@
+Token                          Classification      
+--------------------------------------------------
+"I'm"                          -> Word - Capitalized  
+
+Token                          Individual Characters
+--------------------------------------------------
+"I'm"                          -> 'I'''''m'
+
+Token Type                     Toke Type Count:    
+--------------------------------------------------
+"Number"                       -> 0                   
+"Math Symbol"                  -> 0                   
+"Letter - Capital"             -> 0                   
+"Letter - Lowercase"           -> 0                   
+"Word - Capitalized"           -> 1                   
+"Word - Lowercase"             -> 0                   
+"Alphanumerics"                -> 0                   
+"Punctuation"                  -> 0                   
+"Out of Range"                 -> 0                   

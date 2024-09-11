@@ -54,13 +54,6 @@ public class InstallDelimiter {
                 // append current symbol
                 finalToBeTokenized.append(currentCharInTokens);
 
-                // checks if the character after the current character is not a whitespace and adds one if it isnt
-                // also ensures we are not at the last character
-                // used for signs in between letters like apostrophes or dashes
-                if(c < token.length() - 1 && token.charAt(c + 1) != ' ') {
-
-                    finalToBeTokenized.append(' ');
-                }
             } else {
 
             // appends characters from token (which is from user input) to finalToBeTokenized based on the for loop
