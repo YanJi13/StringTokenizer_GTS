@@ -44,10 +44,10 @@ public class InstallDelimiter {
             // such as signs or symbols
             if(!Character.isLetterOrDigit(currentCharInTokens)) { 
                 
-                // checks if the character before the current index if whitespace and if it is, 
+                // checks if the character before the current index is not whitespace and if it isnt, 
                 // adds a whitespace in between the previous character and the current one
                 // used for signs usually followed by spaces like commas and periods
-                if(c > 0 && token.charAt(c - 1) != ' ') { 
+                if(c > 0 && token.charAt(c - 1) == ',' || token.charAt(c - 1) == '.') { 
 
                     finalToBeTokenized.append(' ');
                 }
